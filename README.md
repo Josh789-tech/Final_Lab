@@ -17,5 +17,8 @@ produces analytics and charts to show losses and usage.
 - Expiration alerts and low-stock flags
 - Analytics report and charts
 
-# Status
-Work in progress. Installation instructions will be added before submission.
+## Requirements
+- Python 3.9 or newer (tested on 3.12). SQLite is built into Python.
+- matplotlib (for the charts)
+
+## Install and run
