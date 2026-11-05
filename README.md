@@ -2,7 +2,7 @@
 
 DSA 214 – Programming for Data Science, Final Laboratory Activity
 Scenario 10: Supply and Expiration Monitor
-Group: <name/number>  |  Members: <names>
+Group: <3>  |  Members: Abenojar, Agatep, Lumbag, Linde
 
 # Purpose
 Small stores lose money when supplies expire unnoticed or run out of stock.
