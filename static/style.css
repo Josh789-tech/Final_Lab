@@ -1,0 +1,113 @@
+
+/* General website design */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f7fb;
+    color: #1e293b;
+}
+
+/* Header and main navigation */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 50px;
+    background-color: #152b46;
+    color: white;
+}
+
+.navbar nav a {
+    color: white;
+    text-decoration: none;
+    margin-left: 25px;
+}
+
+/* Landing page */
+.hero {
+    text-align: center;
+    padding: 120px 20px;
+}
+
+.hero h1 {
+    font-size: 42px;
+}
+
+.hero p {
+    max-width: 600px;
+    margin: 20px auto 35px;
+    line-height: 1.7;
+    color: #64748b;
+}
+
+/* Get Started button */
+.button {
+    display: inline-block;
+    padding: 15px 30px;
+    background: #2563eb;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+}
+
+.button:hover {
+    background: #1d4ed8;
+}
+
+/* Mobile layout */
+@media (max-width: 600px) {
+    .navbar {
+        padding: 15px;
+        flex-wrap: wrap;
+    }
+
+    .hero {
+        padding: 70px 20px;
+    }
+
+    .hero h1 {
+        font-size: 30px;
+    }
+}
+
+
+/* MAIN MENU CARDS */
+
+.menu-grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+.menu-card {
+    display: block;
+    background: white;
+    padding: 30px;
+    border-radius: 12px;
+    border: 1px solid #dce3ed;
+    text-decoration: none;
+    color: #1e293b;
+    transition: 0.2s;
+}
+
+.menu-card:hover {
+    transform: translateY(-3px);
+    border-color: #2563eb;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.06);
+}
+
+.menu-card h3 {
+    margin-top: 0;
+}
+
+.menu-card p {
+    color: #64748b;
+}
+
+@media (max-width: 600px) {
+    .menu-grid {
+        grid-template-columns: 1fr;
+    }
+}
+

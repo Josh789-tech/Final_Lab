@@ -22,3 +22,4 @@ produces analytics and charts to show losses and usage.
 - matplotlib (for the charts)
 
 ## Install and run
+ASHEako namn muna
