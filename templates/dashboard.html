@@ -1,0 +1,35 @@
+
+{% extends "base.html" %}
+
+{% block content %}
+
+<section class="hero">
+    <h1>Inventory Management System</h1>
+    <p>Select a function to continue.</p>
+</section>
+
+<div class="menu-grid">
+
+    <a href="{{ url_for('supplies') }}" class="menu-card">
+        <h3>View Supplies</h3>
+        <p>Display all stored inventory records.</p>
+    </a>
+
+    <a href="{{ url_for('add_supply') }}" class="menu-card">
+        <h3>Add Supply</h3>
+        <p>Register a new product in the inventory.</p>
+    </a>
+
+    <a href="{{ url_for('stock_movements') }}" class="menu-card">
+        <h3>Stock Movements</h3>
+        <p>Monitor incoming and outgoing supplies.</p>
+    </a>
+
+    <a href="{{ url_for('analytics_page') }}" class="menu-card">
+        <h3>Analytics</h3>
+        <p>View inventory reports and charts.</p>
+    </a>
+
+</div>
+
+{% endblock %}
